@@ -10,7 +10,7 @@ Each project is self-contained with its own setup instructions and documentation
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-|[jira-auto](./jira-auto) | Auto-creates Jira tickets when a GitHub issue comment starts with `/jira` | Python, Flask, AWS EC2, Jira API |
+|[Jira-auto](./Jira-auto) | Auto-creates Jira tickets when a GitHub issue comment starts with `/jira` | Python, Flask, AWS EC2, Jira API |
 
 ---
 
