@@ -45,20 +45,6 @@ User types /jira in GitHub issue comment
 
 ---
 
-## Project Structure
-
-```
-jira-auto/
-├── app.py              # Flask server — webhook receiver + Jira API caller
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Keeps secrets and junk out of GitHub
-├── README.md
-└── docs/
-    ├── webhook-delivery.png    # Proof: GitHub sent 200 OK
-    ├── ec2-logs.png            # Proof: Server received and processed request
-    └── jira-dashboard.png      # Proof: Ticket created in Jira
-```
-
 ---
 
 ## Environment Variables
